@@ -6,8 +6,9 @@ This is a simple webserver using C which can do the following things:
 2. **Receive a file** uploaded from the Browser **and save** the file.
 
 ### Notice
-1. The server only supports FireFox.
-2. Only txt, json, csv, html, css, javascript, etc. text files can be saved sucessfully. (That is, image files may cause the webserver to break.)
+1. The server **only supports FireFox.**
+2. Only txt, json, csv, html, css, javascript, etc. text files can be saved sucessfully. 
+   (That is, image files may cause the webserver to break.)
 
 ### Way to execute
 `$ make exe`: Compile C files and start the webserver. <br>
