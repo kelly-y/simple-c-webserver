@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP Server using C</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        .page {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .pb {
+            padding-bottom: 16px;
+        }
+        .small {
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <img src="kabi.jpg" alt="kabi" class="pb small">
+        <form action="http://localhost:8080/index.html" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" class="pb">
+            <input type="submit" value="上傳">
+        </form>
+    </div>
+</body>
+</html>
