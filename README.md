@@ -1,4 +1,4 @@
-## simple-c-webserver
+# simple-c-webserver
 
 ### Introduction
 This is a simple webserver using C which can do the following things:
